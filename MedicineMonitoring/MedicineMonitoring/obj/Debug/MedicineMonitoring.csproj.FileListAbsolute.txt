@@ -1,0 +1,12 @@
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\bin\Debug\MedicineMonitoring.exe.config
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\bin\Debug\MedicineMonitoring.exe
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\bin\Debug\MedicineMonitoring.pdb
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.csproj.AssemblyReference.cache
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.Form1.resources
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.Properties.Resources.resources
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.csproj.GenerateResource.cache
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.exe
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.pdb
+C:\Users\Sugandh\source\repos\MedicineMonitoring\MedicineMonitoring\obj\Debug\MedicineMonitoring.Admin.resources
