@@ -48,11 +48,11 @@ namespace Medisys
 
 
 
-	comment=after this we have to assign action to btn signup of UC_ADDUSER.cs  ( 2:01:42 )
-	  comment= adding a new user , we need these details
-	  comment=in btnSignUp_Click in UC_ADDUSER.cs file
+	//after this we have to assign action to btn signup of UC_ADDUSER.cs  ( 2:01:42 )
+	  // adding a new user , we need these details
+	  // in btnSignUp_Click in UC_ADDUSER.cs file
 	  
-		code
+		//code
 
       String role = txtUserRole.Text;
 	  String f_Name = txtfName.Text; // first name
