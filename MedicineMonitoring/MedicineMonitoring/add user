@@ -1,0 +1,80 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Uc_adduser
+{
+    public partial class Uc_Adduser : UserControl
+    {
+        function fn = new function();
+        string query;
+
+
+        public Uc_adduser()
+        {
+            InitializeComponent();
+        }
+
+        private void btnsignUp_Click(object sender, EventArgs e)
+        {
+            string role = txtUserRole.Text;
+            string name = txtName.Text;
+            string dob = txtDob.Text;
+            Int64 mobile = Int64.Parse(txtmobileNo.Text);
+            string email = txtEmail.Text;
+            String username = txtUsername.Text;
+            string pass = txtPassword.Text;
+
+
+
+            try
+            {
+                query = "insert into useres (userRole,name,dob,mobile,email,username,pass) values ( ' " + role + " ',  ' " + name + " ',  ' " + dob + " ',   " + mobile + " ,  ' " + email + " ' ,  ' " + username + " ',  ' " + pass + " ')";
+                fn.SetData(query, "sign up success.");
+
+            }
+            catch (Exception)
+            {
+                Meesage.show("Username Already exist.", "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            clearAll();
+        }
+
+        public void clearAll()
+        {
+            txtNmae.Clear();
+            txtDob.ResetText();
+            txtMobile.Clear();
+            txtEmail.Clear();
+            txtUsername.Clear();
+            txtPassword.Clear();
+            txtUserRole.SelectedIndex = -1;
+        }
+        private void txtUsername_TextChanged(object sender , EventArgs e)
+        {
+            query = "select *from users where username= '"+txtUsername.Text+"'";
+            DataSet ds = fn.getData(query);
+
+
+            if (ds.Tables[0].Rows.Count==0)
+            {
+                PictureBox1.ImageLocation = @"C:\Users\Lenovo\Downloads\Pharmacy Management System in C#\Pharmacy Management System in C#\yes.png"; //diff path for diff pc
+            }
+            else
+            {
+                PictureBox1.ImageLocation = @"C:\Users\Lenovo\Downloads\Pharmacy Management System in C#\Pharmacy Management System in C#\no.png"; // diff path for diff pc
+            }
+        }
+
+        }
+    }
